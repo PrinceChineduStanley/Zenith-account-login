@@ -4,32 +4,53 @@ const password =document.getElementById("password")
 const users= [
 
     {
-        number : "8145385617",
+        accntnumber : "8145385617",
         password : "prince"
     },
 
     {
-        Email:"Peter@gmail.com",
+        accntnumber:"7073589338",
         password: "Peter1"
     },
 
 ]
 
+
+
+
+
 function signin(){
     let number = accountnumber.value
-    let password= password.value
+    let password1= password.value
+    let passed = false
     
     for (let i =0; i<users.length; i++){
-        if (number==users[i].number && password==users[i].password){
-            alert (" Signed up Successful")
+
+        if (number==users[i].accntnumber && password1==users[i].password){
+            passed = false
+
+         break
         }
     
         else{
-            alert ("Sign in Failed")
+            passed = true
+        
         }
     }
+
+
+    if(passed == true){
+            alert ("Sign in Failed")
+
+    }
+    else{
+            alert (" Signed up Successful")
+        }
     }
 
 
 
+
+
+   
 
