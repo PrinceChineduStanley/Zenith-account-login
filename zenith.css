@@ -1,0 +1,130 @@
+.home{
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar{
+    width: 99%;
+    height: 90px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.zenithlogo{
+    width: 100px;
+    height: 50px;
+    border: 1 pix solid red;
+}
+.textsection{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid red ; */
+    margin-top: 15%;
+    margin-left: 25%;
+    /* color: white; */
+}
+.buttonsection{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-left: 25%;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+#loginbutton{
+    width: 100%;
+    height: 40px;
+    color: rgb(4, 179, 48);
+    margin-top: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 5px ;
+}
+#registerbutton{
+    width: 100%;
+    height: 40px;
+    color: rgb(61, 60, 60);
+    margin-top: 10px;
+    border: 2px solid rgb(118, 226, 151);
+    border-radius: 5px ;
+
+
+}
+.accountsection{
+    width: 50%;
+    height: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.internet{
+    width: 200px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.open{
+    width: 200px;
+    height: 30px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+}
+.help{
+    width: 200px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.footerbox{
+    width: 30%;
+    height: 30px;
+    /* border: 1px solid red; */
+    font-size: small;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 576px){
+    .zenithlogo{
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+        margin-right: 10px;
+    }
+    .textsection{
+        width: 70%;
+        height: 100px;
+        /* border: 1px solid red; */
+        margin-top: 40%;
+        margin-left: 5%;
+    }
+    .buttonsection{
+        width: 90%;
+        height: 100px;
+        /* border: 1px solid red; */
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .accountsection{
+        width: 90%;
+        height: 30px;
+        /* border: 1px solid red; */
+        margin-left: 5%;
+    }
+    .open{
+        margin-right: 10%;
+    }
+    .footerbox{
+        width: 90%;
+        height: 20px;
+        /* border: 1px solid red; */
+        margin-left: 5%;
+        margin-top: 4;
+    }
+}
+
+
