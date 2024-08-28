@@ -5,5 +5,6 @@ if (login==true){
 
 }
 }
+location.href = "welcome.html"
 
 
