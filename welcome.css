@@ -70,29 +70,27 @@ body{
     margin-top: 10px;
 }
 #signin{
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 20px;
+    width: 70%;
+    height: 40px;
+    background-color: red;
+    border-radius: 3px;
+    margin-top: 3%;
+    margin-left: 15%;
+    color: white;
 }
 .forget{
-    
-    width: 20%;
-    height: 20px;
-    /* border: 1px solid red; */
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-
-
-}
-.continue{
     width: 30%;
     height: 20px;
     /* border: 1px solid red; */
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-
+    margin-left: 46%;
+    margin-top: 15px;
+}
+.continue{
+    width: 50%;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin-left: 43%;
+    margin-top: 15px;
 
 }
 
@@ -132,28 +130,17 @@ body{
     width: 70%;
     margin-left: 15%;
 }
-}
 .remember{
     margin-left: 15%;
 }
 #signin{
-    width: 70%;
-    height: 40px;
-    background-color: red;
-    border-radius: 3px;
-    margin-top: 5%;
-    margin-left: 15%;
-    color: white;
+    margin-left: 16%;
 }
 .forget{
-    width: 30%;
-    height: 20px;
-    /* border: 1px solid red; */
-    margin-left: 35%;
+    margin-left: 40%;
 }
 .continue{
-    width: 50%;
-    height: 20px;
-    /* border: 1px solid red; */
-    margin-left: 25%;
+    margin-left: 33%;
+}
+
 }

@@ -1,10 +1,12 @@
 const loginbutton =document.getElementById("loginbutton")
 
-function login(l){
-if (login==true){
+function login(){
+    log =false
+if (log==false){
+
+    location.href = "welcome.html"
 
 }
 }
-location.href = "welcome.html"
 
 
